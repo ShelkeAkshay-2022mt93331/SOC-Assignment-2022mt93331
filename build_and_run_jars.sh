@@ -40,3 +40,7 @@ cd ./employee-service
 mvn clean install -D maven.test.skip
 
 java -jar ./target/employee-service-0.0.1-SNAPSHOT.jar &
+
+cd ..
+
+java -jar zipkin.jar &
